@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#map {
+  margin-left: 100px;
+  width: 1300px;
+  height: 600px;
+  background-image: url('map.png');
+  background-size: cover;
+}
+
+.pawn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: none;
+}
+
+
+#selector {
+  display: flex;
+  margin-left: 100px;
+  width: 1300px;
+  height: 138px;
+  background-color: gray;
+}
+
+#selector .option-minions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  background-color: yellow;
+  border: 5px solid yellow;
+}
+
+.option-minions .cost {
+  font-size: 24px;
+  background-color: orange;
+  width: 36px;
+  height: 36px;
+  top: -200px;
+  border-radius: 50%;
+}
+
+#selector .option-magics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  background-color: orange;
+  border: 5px solid orange;
+}
+
+.option-magics .cost {
+  font-size: 24px;
+  background-color: yellow;
+  width: 36px;
+  height: 36px;
+  top: -200px;
+  border-radius: 50%;
+}
+
+.mini-img {
+  margin: 10px;
+  width: 38px;
+  height: 38px;
+  background-size: cover;
+}
+
+#Warrior .mini-img {
+  background-image: url('warrior1.png');
+}
+
+#Archer .mini-img {
+  background-image: url('archer1.png');
+}
+
+#Knight .mini-img {
+  background-image: url('knight1.png');
+}
+
+#Titan .mini-img {
+  background-image: url('titan1.png');
+}
+
+
+#Mage .mini-img {
+  background-image: url('mage1.png');
+}
+
+#Tower .mini-img {
+  background-image: url('tower1.png');
+}
+
+#Freeze .mini-img {
+  background-image: url('fneeze.png');
+}
+
+#Earthquake .mini-img {
+  background-image: url('earthquake.png');
+}
+
+.play-again-btn,
+#start-btn {
+
+  text-align: center;
+  font-size: 30px;
+}
+
+#win,
+#lose,
+#start {
+  width: 100%;
+  height: 100%;
+  background-color: peachpuff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+
+.message {
+  font-size: 100px;
+  color: brown;
+}
+
+#game-board {
+  display: none;
+  width: 100%;
+  height: 800px;
+
+}
+
+#energy-board {
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  display: fleX;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start
+}
+
+#energy-board #energy {
+  height: 20px;
+  width: 180px;
+  background-color: purple;
+  color: azure;
+  margin: 10px;
+}
+
+#energy-num,
+#energy-message {
+  font-size: 24px;
+  font-weight: 900;
+  color: azure;
+}
+
+button {
+  width: 150px
+}
